@@ -1,0 +1,80 @@
+body{
+  background-color: rgb(193, 197, 191) ;
+  overflow-y: hidden;
+}
+
+.container{
+  width: 100%;
+  max-width: 1440px !important;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.header{
+  background-color: #f8f9fa;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.user__name,
+.user__post,
+.user__comment{
+  width: 33%;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.uset__item{
+  position: relative;
+}
+
+.user__id{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.pluss__btn{
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+
+
+
+.post__btn{
+  position: relative;
+  left: 280px;
+  bottom: -9px;
+} 
+
+.uset__item,
+.uset__post,
+.uset__comm{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.uset__info{
+  border-radius: 10px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+.user__img{
+  position: absolute;
+  margin-left: 109px;
+  margin-top: 250px;
+}
+
+.uset__post{
+  position: relative;
+}
+
+.user__post-img,
+.user__com-img{
+  margin-left: 109px;
+  margin-top: 250px;
+}
