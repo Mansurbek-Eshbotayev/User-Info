@@ -101,7 +101,7 @@ elUserList.addEventListener("click",function(evt){
   let btnId = evt.target.dataset.id;
   if (btnId) {
     createPost(btnId,elUserPost)
-    // elUserComment.innerHTML=""
+    elUserComment.innerHTML=""
   }
 });
 
