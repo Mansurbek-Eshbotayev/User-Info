@@ -24,7 +24,7 @@ function createUser(){
         <p class="text-secondary">${item.address.city} ${item.address.street}</p>
         <a href="">
         <a class="link" target="__blank"
-        href="https://www.google.com/maps/place/${item.address.geo.lng}">Location</a>
+        href="https://www.google.com/maps/place/${item.address.geo.lat},${item.address.geo.lng}">Location</a>
         <span class="user__id fs-3 text-secondary">${item.id}</span>
         <button class="btn pluss__btn btn-primary mb-2 " data-id=${item.id}>more</button>
         </div>
